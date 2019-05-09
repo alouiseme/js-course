@@ -37,7 +37,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
     }    
 });
 
-
+//Create hold button
 document.querySelector('.btn-hold').addEventListener('click', function() {
     if (gamePlaying) {
         // Add CURRENT score to GLOBAL score
